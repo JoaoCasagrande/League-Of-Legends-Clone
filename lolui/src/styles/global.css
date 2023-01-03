@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "FF Mark W05"; 
+    src: url("../assets/fonts/Mark\ W05\ Medium.ttf");
+}
+
+:root {
+    --bg-darkerblue: #000115;
+    --bg-lightblue: #0BC4E2;
+    --border-yellow: #FED049;
+    --font-uppercase: "FF Mark W05", Arial, sans-serif;
+}
+
+#root {
+    height: inherit;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+    background-color: var(--bg-darkerblue);
+}

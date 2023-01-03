@@ -1,0 +1,20 @@
+.progressBar {
+    position: relative;
+    overflow: hidden;
+    
+    width: 180px;
+    height: 18px;
+    padding: 2px;
+
+    border: 1px solid var(--border-yellow);
+    border-radius: 12px;
+}
+
+.progressShown {
+    height: 100%;
+
+    background-color: #FED049;
+    border-radius: 10px;
+
+    transition: width 0.05s;
+}

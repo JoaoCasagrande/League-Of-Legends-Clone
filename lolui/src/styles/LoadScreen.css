@@ -1,0 +1,90 @@
+.loadScreenFull {
+    width: 100%;
+    height: 100%;
+}
+
+.firstLayer {
+    width: 100%;
+    height: 100%;
+
+    background-position: center;
+    background-size: 100%;
+    
+    position: fixed;
+}
+
+.secondLayer {
+    width: 100%;
+    height: 100%;
+
+    background-color: #000115D9;
+
+    position: fixed;
+}
+
+.centerLine {
+    width: 100%;
+
+    border-color: var(--border-yellow);
+
+    position: fixed;
+    top: 46.5%;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+}
+
+.circleFrame {
+    width: 70vw;
+    height: 70vw;
+
+    background-color: var(--bg-darkerblue);
+
+    position: fixed;
+    left: 15vw;
+    top: -15%;
+}
+
+.circleBorder {
+    width: 60%;
+    height: 60%;
+
+    background-color: #000115;
+    border: 2px solid var(--border-yellow);
+
+    z-index: 16;
+}
+
+.circleFrameBorder {
+    width: 98%;
+    height: 98%;
+
+    background-position: center;
+    background-size: 100%;
+}
+
+.endCircle {
+    width: 96%;
+    height: 96%;
+
+    background-color: #000115;
+}
+
+.logoImage {
+    width: 180px;
+    margin-bottom: 16px;
+}
+
+.progressDescription {
+    font-family: var(--font-uppercase);
+    color: var(--border-yellow);
+    text-transform: uppercase;
+
+    margin-bottom: 8px;
+}
