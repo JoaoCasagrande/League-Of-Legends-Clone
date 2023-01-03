@@ -1,3 +1,5 @@
+import React from 'react';
+
 import '../styles/LoadScreen.css';
 import lines from '../assets/fundolinhas.png';
 import Progressbar from '../components/Progressbar';

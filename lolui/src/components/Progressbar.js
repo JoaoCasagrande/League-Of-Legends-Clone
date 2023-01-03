@@ -1,9 +1,12 @@
+import { React, useState, useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
+
 import '../styles/Progressbar.css';
-import { useState, useEffect } from "react";
 
 export default function Progressbar() {
     const [filled, setFilled] = useState(0);
     const [isRunning, setIsRunning] = useState(true);
+    const navigate = useNavigate();
 
     useEffect(() => {
         if (filled < 100 && isRunning) {
@@ -13,8 +16,9 @@ export default function Progressbar() {
             if (filled >= 100) setFilled(100)
 
             setIsRunning(false)
+            navigate("/home")
         }
-    }, [filled, isRunning])
+    }, [filled, isRunning, navigate])
 
     return (
         <div>
